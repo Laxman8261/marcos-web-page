@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Sticky</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+            font-family: "Playwrite NG Modern", cursive;
+        }
+        .container{
+            font-size: 25px;
+            position: sticky;
+            top: 0;
+            display: flex;
+            /* border: 1px solid red; */
+            justify-content: space-between;
+            padding: 0 10px 0 10px;
+            background-color: #111;
+            color: #fff;
+        }
+        .links{
+            display: flex;
+            gap: 40px;
+            font-size: 16px;
+            align-items: center;
+
+        }
+        .imgMarcos{
+            /* top: px; */
+            border-radius: 50%;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgAndParagraph{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 20px;
+            text-align: justify;
+            align-items: center;
+        }
+        .imgAndParagraph1{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            gap: 10px;
+            padding: 20px;
+            text-align: justify;
+            align-items: center;
+        }
+        .imgAndParagraph2{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 20px;
+            text-align: justify;
+            align-items: center;
+        }
+        .image{
+            border-radius: 24%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="imgMarcos" src="./marcos.jpg" alt="Marcos" height="40vh" >
+            <p>Marcos </p>
+        </div>
+        <div class="links">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Contact</p>
+            <p>Contact us</p>
+        </div>
+    </div>
+    <div class="imgAndParagraph">
+        <img class="image" src="https://tse3.mm.bing.net/th?id=OIP.0qThwGUlnULLAz8MTnN9QwHaHa&pid=Api&P=0&h=180" alt="js">
+        <p class="Para"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem expedita labore voluptate soluta delectus accusamus repellat natus enim, a, minus saepe tenetur eius? Tenetur excepturi et dignissimos autem fugiat at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, assumenda?</p>
+    </div>
+
+    <hr>
+
+    <div class="imgAndParagraph1">
+        <img class="image" src="https://tse3.mm.bing.net/th?id=OIP.0qThwGUlnULLAz8MTnN9QwHaHa&pid=Api&P=0&h=180" alt="js">
+        <p class="Para"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem expedita labore voluptate soluta delectus accusamus repellat natus enim, a, minus saepe tenetur eius? Tenetur excepturi et dignissimos autem fugiat at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea?</p>
+    </div>
+
+    <hr>
+
+    <div class="imgAndParagraph2">
+        <img class="image" src="https://tse3.mm.bing.net/th?id=OIP.0qThwGUlnULLAz8MTnN9QwHaHa&pid=Api&P=0&h=180" alt="js">
+        <p class="Para"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem expedita labore voluptate soluta delectus accusamus repellat natus enim, a, minus saepe tenetur eius? Tenetur excepturi et dignissimos autem fugiat at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ea?</p>
+    </div>
+</body>
+</html>
